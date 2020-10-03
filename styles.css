@@ -288,3 +288,38 @@ social-links li {
 .flickity-button-icon {
   fill: #84817a;
 }
+
+
+@media(max-width: 767px){
+  .navigation {
+  background-color: #3d3d3d;
+  padding: 8px 0;
+  position: static;
+  width: 100%;
+  z-index: 9999;
+  word-spacing: 20px;
+  height: 10%;
+}
+  
+.main-title {
+  margin: 0;
+  font-family: $font-title;
+  font-style: oblique;
+  font-size: 70px;
+  font-weight: bold;
+}
+  
+.splash {
+  position: relative;
+  height: 410px;
+  color: $color-title;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url('https://i.postimg.cc/4NKVmVWW/pexels-jack-redgate-2929246.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 40%;
+}
+}
