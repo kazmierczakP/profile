@@ -143,11 +143,11 @@ section {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  opacity: 0.4;
+  opacity: 0.8;
   filter: alpha(opacity=20);
 }
-.statement p {
-  color: #3d3d3d;
+.statement {
+  color: #ccae62;
   margin: 0;
   text-align: center;
 }
