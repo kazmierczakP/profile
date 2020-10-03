@@ -137,7 +137,7 @@ section {
   padding: 0 24px;
 }
 .statement {
-  color: #3d3d3d;
+  color: #ccae62;
   background-image: url('https://i.postimg.cc/wj1Hm5Pb/pexels-jo-o-v-tor-heinrichs-1787035.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,7 +146,7 @@ section {
   opacity: 0.8;
   filter: alpha(opacity=20);
 }
-.statement {
+.statement p{
   color: #ccae62;
   margin: 0;
   text-align: center;
