@@ -294,7 +294,7 @@ social-links li {
   .navigation {
   background-color: #3d3d3d;
   padding: 8px 0;
-  position: static;
+  position: fixed;
   width: 100%;
   z-index: 9999;
   word-spacing: 20px;
@@ -321,5 +321,9 @@ social-links li {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 10% 40%;
+}
+.gallery-item{
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 }
